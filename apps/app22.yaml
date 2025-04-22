@@ -9,9 +9,6 @@ spec:
     repoURL: https://github.com/javanshir301/gitops-apps.git
     targetRevision: HEAD
     path: base/app22
-    helm:
-      values: |
-        # istəsən burda helm chartdakı values-ları override edə bilərsən
   destination:
     server: https://kubernetes.default.svc
     namespace: default
